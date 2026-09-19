@@ -1,0 +1,52 @@
+.mappings-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.rules-banner {
+  background: rgba(99, 102, 241, 0.08);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.banner-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #818cf8;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.rules-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.rule-pill {
+  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.35rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #94a3b8;
+}
+
+.rule-cat {
+  font-weight: 600;
+  color: #f8fafc;
+}
+
+.rule-code {
+  color: #34d399;
+  font-family: monospace;
+}

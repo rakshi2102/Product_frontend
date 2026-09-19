@@ -1,0 +1,46 @@
+.validation-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.val-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+
+.val-card {
+  background: rgba(15, 23, 42, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.val-label {
+  font-size: 0.775rem;
+  font-weight: 500;
+  color: #94a3b8;
+  text-transform: uppercase;
+}
+
+.val-score {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #34d399;
+}
+
+.val-score.danger { color: #f87171; }
+.val-score.warning { color: #fbbf24; }
+
+.val-sub {
+  font-size: 0.775rem;
+  color: #64748b;
+}
+
+.mt-1 { margin-top: 0.25rem; }
+.flex { display: flex; }
+.gap-2 { gap: 0.5rem; }

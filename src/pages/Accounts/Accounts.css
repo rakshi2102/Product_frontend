@@ -1,0 +1,61 @@
+.accounts-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-card {
+  background: rgba(15, 23, 42, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.filter-item {
+  flex: 1;
+  min-width: 180px;
+}
+
+.filter-item.search {
+  flex: 2;
+  min-width: 260px;
+}
+
+.modal-form-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.font-mono {
+  font-family: monospace;
+}
+
+.text-indigo { color: #818cf8; font-weight: 600; }
+.text-white { color: #f8fafc; }
+.text-slate { color: #64748b; }
+.font-semibold { font-weight: 600; }
+.text-xs { font-size: 0.75rem; }
+
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.65rem;
+  border-radius: 20px;
+  font-size: 0.725rem;
+  font-weight: 600;
+}
+
+.badge-success { background: rgba(16, 185, 129, 0.15); color: #34d399; }
+.badge-warning { background: rgba(245, 158, 11, 0.15); color: #fbbf24; }
+.badge-danger { background: rgba(239, 68, 68, 0.15); color: #f87171; }
+.badge-neutral { background: rgba(148, 163, 184, 0.15); color: #94a3b8; }
